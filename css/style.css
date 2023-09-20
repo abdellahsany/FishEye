@@ -1,0 +1,96 @@
+@import url("photographer.html?id");
+
+/* CORPS */
+
+body {
+  font-family: "DM Sans", sans-serif;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  box-sizing: border-box;
+}
+
+/* LOGO */
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 100px;
+  margin: 0 2rem;
+}
+
+.logo {
+  height: 40px;
+  margin-left: 100px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+header h1 {
+  color: #901c1c;
+  height: 47px;
+}
+
+/* PORTRAITS PAGE D'ACCEUIL (PHOTOGRAPHERS) */
+
+.photographersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-left: 68px;
+  padding-right: 68px;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.photographersNone {
+  text-decoration: none;
+}
+
+.photographersImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0px 4px 12px 0px #00000040;
+  text-align: center;
+  margin: 50px;
+}
+
+.photographersName {
+  font-size: 25px;
+  color: #db8876;
+  margin-top: -20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.photographersCityCountry {
+  font-size: 18px;
+  color: #901c1c;
+  text-align: center;
+}
+
+.photographersTagline {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0px 5px 0px;
+}
+
+.photographersPrice {
+  font-size: 10px;
+  color: #525252;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.mediaVideoImage {
+  max-width: 100%;
+  max-height: 100%;
+}

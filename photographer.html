@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/photographer.css" rel="stylesheet" type="text/css" />
+  <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link href="https://fonts.googleapis.com/css?family=DM+Sans&display=swap" rel="stylesheet" />
+  <title>Fisheye Photographe</title>
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <img class="logo" src="assets/logos/logo.png" alt="Logo Fisheye Photographe" />
+    </a>
+  </header>
+
+  <main id="main">
+    <div class="bannerContainer">
+      <div class="contactContainer">
+        <button class="contactButton" aria-label="Contacter le photographe" tabindex="4" onclick="displayModal()">
+          Contactez-moi
+        </button>
+      </div>
+    </div>
+
+    <nav>
+      <section class="navContainer">
+        <div class="navSelect">
+          <p>Popularité</p>
+          <img class="navSelectArrowDown" src="assets\icons\downArroew.png" />
+        </div>
+        <ul class="navSearch">
+          <li data-value="Popularité">Popularité<img class="navSelectArrowUp" src="assets\icons\downArroew.png" /></li>
+          <li data-value="Date">Date</li>
+          <li data-value="Titre">Titre</li>
+        </ul>
+      </section>
+    </nav>
+
+    <section id="mediaContainer" class="mediaContainer"></section>
+  </main>
+
+  <div class="modalFond"></div>
+  <section id="modalContainer" aria-hidden="true" role="dialog">
+    <div class="modalBody">
+      <header>
+        <h2>Contactez-moi</h2>
+        <img src="assets/icons/close_primaryColor.svg" alt="Ferme le formulaire" onclick="closeModal()" />
+      </header>
+      <form id="modalForm">
+        <div class="modalData">
+          <label for="first">Prénom</label>
+          <input class="text-control" aria-label="Veuillez entrer votre prénom" type="text" id="first" name="first"
+            pattern="[a-zA-Z]{2,}" required />
+          <span id="firstError"></span>
+        </div>
+        <div class="modalData">
+          <label for="last">Nom</label>
+          <input class="text-control" aria-label="Veuillez entrer votre nom" type="text" id="last" name="last"
+            pattern="[a-zA-Z]{2,}" required />
+          <span id="lastError"></span>
+        </div>
+        <div class="modalData">
+          <label for="email">Email</label>
+          <input class="text-control" aria-label="Ce champ est obligatoire" type="email" id="email" name="email"
+            required />
+          <span id="emailError"></span>
+        </div>
+
+        <div class="modalData">
+          <label for="message">Message</label>
+          <textarea class="text-control" aria-label="Détail de votre message" type="text" id="message" name="message"
+            required></textarea>
+          <span id="messageError"></span>
+        </div>
+        <button class="buttonContact" type="submit" aria-label="Envoyer le formulaire" id="envoyer">
+          Envoyer
+        </button>
+      </form>
+    </div>
+    <section id="info-like-price"></section>
+  </section>
+
+  <script src="scripts/utils/contactForm.js"></script>
+  <script src="scripts/pages/photographer.js" type="module"></script>
+  <script src="scripts/factories/photographer.js"></script>
+  <script src="scripts/factories/lightbox.js"></script>
+  <script src="scripts/utils/navPhotographers.js"></script>
+  <script src="scripts/utils/likes.js"></script>
+</body>
+
+</html>

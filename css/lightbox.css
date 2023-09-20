@@ -1,0 +1,59 @@
+.lightboxSection {
+  display: flex;
+  justify-content: center; /* Centre horizontalement */
+  align-items: center; /* Centre verticalement */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.lightboxArrowRight,
+.lightboxArrowLeft,
+.lightboxClose {
+  position: fixed;
+  z-index: 50;
+  height: 3%;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.lightboxClose {
+  right: 20%;
+  justify-content: space-between;
+  top: 9%;
+}
+
+.lightboxArrowRight {
+  right: 20%;
+  top: 50%;
+}
+
+.lightboxArrowLeft {
+  left: 20%;
+  top: 50%;
+  transform: rotate(180deg);
+}
+
+.lightboxElement {
+  height: 55vh;
+  width: 100%;
+}
+
+.lightboxSlideFromRight {
+  animation: slideFromRight 0.5s ease-in-out;
+}
+
+.lightboxSlideFromLeft {
+  animation: slideFromLeft 0.5s ease-in-out;
+}
+
+.lightboxTitle {
+  color: #901c1c;
+  font-weight: bolder;
+  font-size: large;
+  padding-top: 2%;
+  z-index: 50;
+}
