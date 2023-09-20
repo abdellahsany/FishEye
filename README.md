@@ -56,6 +56,6 @@ trois champs dans les logs de la console. Responsive design “Pour cette itéra
 
 - Toute la gestion des événements (par exemple, les clics et les pressions au clavier) doit être configurée (utilisez KeyboardEvent.key ou KeyboardEvent.code). Utilisez un lecteur d'écran gratuit pour vous faire une idée de ce que représente l'utilisation du site pour une personne malvoyante.
 
-## Visitez le projet terminéE
+## Visitez le projet terminé
 
 https://abdellahsany.github.io/FishEye/
