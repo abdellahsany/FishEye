@@ -1,61 +1,109 @@
-![2023-09-20_02h40_46](https://github.com/abdellahsany/FishEye/assets/106497263/8f13bdff-bafd-4fcf-9f03-b291cdf7a213)
+# *FishEye*
 
-`P6` `FishEye` `OpenClassrooms` `Développeur d'application - JavaScript React`
+<p align="center">
+  <img src="https://github.com/abdellahsany/FishEye/assets/106497263/8f13bdff-bafd-4fcf-9f03-b291cdf7a213" alt="Page d’accueil FishEye" height="100%" width="100%">
+</p>
 
-[![HTML](https://img.shields.io/badge/HTML-HyperText%20Markup%20Language-orange)](https://developer.mozilla.org/fr/docs/Learn/HTML)
-[![CSS](https://img.shields.io/badge/CSS-Cascading%20Style%20Sheets-blue)](https://developer.mozilla.org/fr/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JS-JavaScript-yellow)](https://www.javascript.com/)
+---
 
-## Mission
+## 📑 Table des matières
 
-Créez un site accessible pour une plateforme de photographes. Leur site est obsolète et a besoin d'être remanié. Notre site a été construit il y a plus de dix ans, et nous n'avons pas eu l'occasion de le mettre à jour jusqu'à présent. Nous venons de lever des fonds et nous aimerions que votre équipe le transforme d'un site statique à un site dynamique. 
+* [Mission](#mission)
+* [Objectif](#objectif)
+* [Points forts de l’interface](#points-forts-de-linterface)
+* [Stacks techniques](#stacks-techniques)
+* [Fonctionnalités et bonnes pratiques techniques](#fonctionnalites-et-bonnes-pratiques-techniques)
+* [Aspects techniques et accessibilité](#aspects-techniques-et-accessibilite)
+* [Points techniques spécifiques](#points-techniques-specifiques)
+* [Accès au projet par clic](#acces-au-projet-par-clic)
+* [Accès au projet par QR](#acces-au-projet-par-qr)
 
-## Objectif 
+---
 
-Site web de photographes freelances. Nos clients prennent de super photos, mais ils n’y connaissent rien en développement web. C'est pourquoi nous proposons une plateforme unique pour montrer leurs photos sur une belle page et les contacter pour des événements ou des tirages. Nous sommes l'un des plus grands sites de photographie en freelance, avec un énorme réseau de photographes.
+## 🎯 Mission <a name="mission"></a>
 
-## Fonctionnalités
+Moderniser une plateforme de photographes freelance initialement statique en une application web dynamique, interactive, et **entièrement accessible**. Ce projet met l'accent sur l'expérience utilisateur et l'inclusion numérique.
 
-- Liste de tous les photographes avec leur nom, leur slogan, leur
-localisation, leur prix/heure, leurs tags et une image miniature de leur
-choix. En cliquant sur une étiquette (tag) dans la barre de navigation, la liste
-des photographes est filtrée pour n'afficher que ceux qui
-correspondent à cette étiquette.
+---
 
-- Lorsque l'utilisateur clique sur la vignette d'un photographe, il est
-amené à sa page. Pages des photographes (une pour chaque photographe échantillon).
-  
-- Affiche une galerie des travaux du photographe. Les photographes peuvent montrer à la fois des photos et des vidéos. Dans le cas des vidéos, montrer une image miniature dans la galerie. Chaque média comprend un titre et un nombre de likes.
-  
-- Lorsque l'utilisateur clique sur l'icône "Like", le nombre de likes
-affiché est incrémenté. Le nombre de likes total d’un photographe doit correspondre à la
-somme des likes de chacun de ses medias. Les médias peuvent être triés par popularité ou par titre.
-  
-- Lorsque l'utilisateur clique sur un média, celui-ci doit s’ouvrir dans une
-lightbox. Lorsque la lightbox est affichée, il y a une croix dans le coin pour
-fermer la fenêtre. Des boutons de navigation permettent de passer d'un élément
-média à l'autre (les utilisateurs peuvent cliquer sur ces boutons
-pour naviguer).
+## 🧭 Objectif <a name="objectif"></a>
 
-- Les touches fléchées permettent également de naviguer entre
-les médias. Afficher un bouton pour contacter le photographe. Le formulaire de contact est une modale qui s'affiche par-dessus
-le reste. Il comprend des champs pour les noms, l'adresse électronique et
-le message. Plus tard, le bouton de contact enverra un message au
-photographe. Pour l'instant, seulement afficher le contenu des
-trois champs dans les logs de la console. Responsive design “Pour cette itération, pas besoin que le site soit responsive sur mobile”.
+* Offrir un espace élégant et professionnel pour présenter les portfolios des photographes,
+* Permettre aux visiteurs de **naviguer facilement**, d’**aimer**, et de **contacter** les photographes,
+* Garantir une expérience **clavier-first** et **accessible**,
+* Appliquer une architecture **modulaire, maintenable et conforme aux bonnes pratiques** modernes.
 
-## Procédés techniques
+---
 
-- Le code est séparé en différents fichiers (HTML, CSS, JavaScript). ESLint est utilisé (avec les paramètres par défaut) pour garantir que le code est robuste. Ceci est particulièrement facile à intégrer avec l'IDE VSCode.
+## ✨ Points forts de l’interface <a name="points-forts-de-linterface"></a>
 
-- Une version moderne (ES6 ou supérieure) de JavaScript est utilisée et les fonctionnalités obsolètes ne sont pas utilisées. Le code est lisible. Il faudra s'assurer que les variables et fonctions ont un nom qui a un sens, et commenter le code lorsque le nom n'indique pas explicitement ce qu'il se passe.
+* **Liste de photographes** filtrable par tags dynamiques,
+* **Pages individuelles** avec galeries interactives,
+* **Tri des médias** par popularité, date ou titre,
+* **Lightbox intuitive** avec navigation au clavier,
+* **Formulaire de contact en modale**, conforme aux standards d’accessibilité.
 
-- L'accessibilité, il est très important que notre site soit accessible aux utilisateurs malvoyants. Toutes nos photos doivent comporter des descriptions textuelles, et vous devez les inclure dans la page. De plus, l'utilisateur doit pouvoir utiliser les commandes du clavier pour naviguer sur le site, comme les touches fléchées de la lightbox ».
+---
 
-- Utilisez des éléments HTML « sémantiques » qui décrivent leur intention autant que possible, au lieu de mettre des éléments <div> partout. Lorsque vous devez créer un élément personnalisé, ajoutez des attributs ARIA pour décrire ce qu'il fait. Le code devrait passer les tests AChecker sans « known issue » (afin qu'il soit conforme aux WCAG).
+## ⚙️ Stacks techniques <a name="stacks-techniques"></a>
 
-- Toute la gestion des événements (par exemple, les clics et les pressions au clavier) doit être configurée (utilisez KeyboardEvent.key ou KeyboardEvent.code). Utilisez un lecteur d'écran gratuit pour vous faire une idée de ce que représente l'utilisation du site pour une personne malvoyante.
+* [![HTML](https://img.shields.io/badge/HTML5-HyperText%20Markup%20Language-orange)](https://developer.mozilla.org/fr/docs/Learn/HTML) : HTML sémantique et structuré
+* [![CSS](https://img.shields.io/badge/CSS3-Cascading%20Style%20Sheets-blue)](https://developer.mozilla.org/fr/docs/Web/CSS) : Mise en forme et responsivité de base
+* [![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-yellow)](https://www.javascript.com/) : Logique fonctionnelle (ES6+)
+* [![ESLint](https://img.shields.io/badge/ESLint-Analyse%20statique-purple)](https://eslint.org/) : Analyse de code avec règles par défaut
+* [![VSCode](https://img.shields.io/badge/VSCode-Visual%20Studio%20Code-blueviolet)](https://code.visualstudio.com/) : Environnement de développement
+* [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Déploiement-181717?logo=github)](https://pages.github.com/) : Hébergement du site statique
 
-## Visitez le projet terminé
+---
 
-https://abdellahsany.github.io/FishEye/
+## ✅ Fonctionnalités et bonnes pratiques techniques <a name="fonctionnalites-et-bonnes-pratiques-techniques"></a>
+
+* Architecture **composée de modules clairs** : data, templates, composants,
+* **Gestion des événements** clavier/souris avec `KeyboardEvent.key` et `addEventListener`,
+* **Tri dynamique** des médias via menu déroulant,
+* **Système de likes** localisé par média avec totalisation globale dynamique,
+* Navigation **sans rechargement de page** (Single Page Logic),
+* **Logs console** du formulaire simulant un envoi côté client.
+
+---
+
+## ♿ Aspects techniques et accessibilité <a name="aspects-techniques-et-accessibilite"></a>
+
+* Respect strict des recommandations **WCAG 2.1 AA**,
+* Validation via **AChecker** sans "known issues",
+* **Textes alternatifs** pour chaque média image ou vidéo,
+* Navigation **100% clavier compatible** (tabindex, `aria-*`, role),
+* Utilisation d’**éléments HTML sémantiques** (`<main>`, `<section>`, `<article>`, etc.),
+* Tests avec **lecteurs d’écran** pour améliorer l’expérience malvoyants.
+
+---
+
+## 🧩 Points techniques spécifiques <a name="points-techniques-specifiques"></a>
+
+* **Lightbox personnalisée** :
+
+  * Ouverture au clic clavier ou souris,
+  * Fermeture avec touche `Esc` ou bouton,
+  * Navigation circulaire avec flèches gauche/droite.
+* **Formulaire modale** :
+
+  * Focus automatique sur champ prénom,
+  * Validation front complète,
+  * Accessibilité via `role="dialog"` et `aria-labelledby`.
+* **Filtrage dynamique** par étiquettes avec activation clavier.
+
+---
+
+## 🔗 Accès au projet par clic <a name="acces-au-projet-par-clic"></a>
+
+<a href="https://abdellahsany.github.io/FishEye/">
+  <img src="https://github.com/abdellahsany/Kasa/blob/main/src/assets/images/Picture%20(47).png" alt="Cliquez ici" height="55px" width="55px"/>
+</a>
+
+---
+
+## 📲 Accès au projet par QR <a name="acces-au-projet-par-qr"></a>
+
+<p align="left">
+  <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://abdellahsany.github.io/FishEye/&amp;size=150x150" alt="QR code pour accéder au projet FishEye" height="55px" width="55px">
+</p>
