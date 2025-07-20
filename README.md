@@ -81,19 +81,15 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ## 🧩 Points techniques specifique <a name="points-techniques-specifique"></a>
 
-* **Lightbox personnalisée** :
-
-  * Navigation clavier (flèches gauche/droite),
-  * Fermeture avec `Esc` ou bouton,
-  * Bouclage automatique (retour au premier élément).
-
-* **Formulaire en modale** :
-
-  * Focus automatique à l'ouverture,
-  * Validation front complète avec messages d'erreur,
-  * Accessibilité via `role="dialog"` et `aria-labelledby`.
-
-* **Filtrage par tags** entièrement **clavier-compatible**.
+* Lightbox personnalisée :
+* Navigation clavier (flèches gauche/droite),
+* Fermeture avec `Esc` ou bouton,
+* Bouclage automatique (retour au premier élément).
+* Formulaire en modale :
+* Focus automatique à l'ouverture,
+* Validation front complète avec messages d'erreur,
+* Accessibilité via `role="dialog"` et `aria-labelledby`.
+* Filtrage par tags** entièrement **clavier-compatible**.
 
 ---
 
