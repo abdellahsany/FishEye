@@ -51,11 +51,13 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ## 📚 Stacks techniques <a name="stacks-techniques"></a>
 
-* [![HTML](https://img.shields.io/badge/HTML5-Sémantique-orange)](https://developer.mozilla.org/fr/docs/Web/HTML) : Structure claire et accessible
-* [![CSS](https://img.shields.io/badge/CSS3-Responsive%20Design-blue)](https://developer.mozilla.org/fr/docs/Web/CSS) : Mise en page fluide et responsive
-* [![JavaScript](https://img.shields.io/badge/JavaScript-DOM%20et%20Accessibilité-yellow)](https://developer.mozilla.org/fr/docs/Web/JavaScript) : Interactivité avancée et logique front dynamique
-* [![ESLint](https://img.shields.io/badge/ESLint-Qualité%20du%20code-purple)](https://eslint.org/) : Vérification de style de code et erreurs
-* [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Déploiement-181717?logo=github)](https://pages.github.com/) : Hébergement du projet
+| Technologie | Description |
+|-------------|-------------|
+| [![HTML](https://img.shields.io/badge/HTML5-Sémantique-orange)](https://developer.mozilla.org/fr/docs/Web/HTML) | Structure claire et accessible |
+| [![CSS](https://img.shields.io/badge/CSS3-Responsive%20Design-blue)](https://developer.mozilla.org/fr/docs/Web/CSS) | Mise en page fluide et responsive |
+| [![JavaScript](https://img.shields.io/badge/JavaScript-DOM%20et%20Accessibilité-yellow)](https://developer.mozilla.org/fr/docs/Web/JavaScript) | Interactivité avancée et logique front dynamique |
+| [![ESLint](https://img.shields.io/badge/ESLint-Qualité%20du%20code-purple)](https://eslint.org/) | Vérification de style de code et erreurs |
+| [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Déploiement-181717?logo=github)](https://pages.github.com/) | Hébergement du projet |
 
 ---
 
