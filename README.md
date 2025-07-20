@@ -89,7 +89,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 * Focus automatique à l'ouverture,
 * Validation front complète avec messages d'erreur,
 * Accessibilité via `role="dialog"` et `aria-labelledby`.
-* Filtrage par tags** entièrement **clavier-compatible**.
+* Filtrage par tags, entièrement clavier-compatible.
 
 ---
 
