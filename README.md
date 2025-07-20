@@ -1,7 +1,11 @@
+Voici ton fichier pour le projet **FishEye** reformatté pour correspondre exactement au style de ton projet **GameOn** :
+
+---
+
 # *FishEye*
 
 <p align="center">
-  <img src="https://github.com/abdellahsany/FishEye/assets/106497263/8f13bdff-bafd-4fcf-9f03-b291cdf7a213" alt="Page d’accueil FishEye" height="100%" width="100%">
+  <img src="https://github.com/abdellahsany/FishEye/assets/106497263/8f13bdff-bafd-4fcf-9f03-b291cdf7a213" alt="Page d’accueil FishEye" height="90%" width="90%">
 </p>
 
 ---
@@ -10,11 +14,11 @@
 
 * [Mission](#mission)
 * [Objectif](#objectif)
-* [Points forts de l’interface](#points-forts-de-linterface)
+* [Points forts de linterface](#points-forts-de-linterface)
 * [Stacks techniques](#stacks-techniques)
 * [Fonctionnalités et bonnes pratiques techniques](#fonctionnalites-et-bonnes-pratiques-techniques)
 * [Aspects techniques et accessibilité](#aspects-techniques-et-accessibilite)
-* [Points techniques spécifiques](#points-techniques-specifiques)
+* [Points techniques specifique](#points-techniques-specifique)
 * [Accès au projet par clic](#acces-au-projet-par-clic)
 * [Accès au projet par QR](#acces-au-projet-par-qr)
 
@@ -35,7 +39,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-## ✨ Points forts de l’interface <a name="points-forts-de-linterface"></a>
+## ✨ Points forts de linterface <a name="points-forts-de-linterface"></a>
 
 * **Liste de photographes** filtrable par tags dynamiques,
 * **Pages individuelles** avec galeries interactives,
@@ -45,56 +49,55 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-## ⚙️ Stacks techniques <a name="stacks-techniques"></a>
+## 📚 Stacks techniques <a name="stacks-techniques"></a>
 
-* [![HTML](https://img.shields.io/badge/HTML5-HyperText%20Markup%20Language-orange)](https://developer.mozilla.org/fr/docs/Learn/HTML) : HTML sémantique et structuré
-* [![CSS](https://img.shields.io/badge/CSS3-Cascading%20Style%20Sheets-blue)](https://developer.mozilla.org/fr/docs/Web/CSS) : Mise en forme et responsivité de base
-* [![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-yellow)](https://www.javascript.com/) : Logique fonctionnelle (ES6+)
-* [![ESLint](https://img.shields.io/badge/ESLint-Analyse%20statique-purple)](https://eslint.org/) : Analyse de code avec règles par défaut
-* [![VSCode](https://img.shields.io/badge/VSCode-Visual%20Studio%20Code-blueviolet)](https://code.visualstudio.com/) : Environnement de développement
-* [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Déploiement-181717?logo=github)](https://pages.github.com/) : Hébergement du site statique
+* [![HTML](https://img.shields.io/badge/HTML5-Sémantique-orange)](https://developer.mozilla.org/fr/docs/Web/HTML) : Structure claire et accessible
+* [![CSS](https://img.shields.io/badge/CSS3-Responsive%20Design-blue)](https://developer.mozilla.org/fr/docs/Web/CSS) : Mise en page fluide et responsive
+* [![JavaScript](https://img.shields.io/badge/JavaScript-DOM%20et%20Accessibilité-yellow)](https://developer.mozilla.org/fr/docs/Web/JavaScript) : Interactivité avancée et logique front dynamique
+* [![ESLint](https://img.shields.io/badge/ESLint-Qualité%20du%20code-purple)](https://eslint.org/) : Vérification de style de code et erreurs
+* [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Déploiement-181717?logo=github)](https://pages.github.com/) : Hébergement du projet
 
 ---
 
 ## ✅ Fonctionnalités et bonnes pratiques techniques <a name="fonctionnalites-et-bonnes-pratiques-techniques"></a>
 
-* Architecture **composée de modules clairs** : data, templates, composants,
-* **Gestion des événements** clavier/souris avec `KeyboardEvent.key` et `addEventListener`,
+* Architecture **modulaire** : fichiers séparés par logique (templates, données, composants),
+* Navigation **sans rechargement de page**,
 * **Tri dynamique** des médias via menu déroulant,
-* **Système de likes** localisé par média avec totalisation globale dynamique,
-* Navigation **sans rechargement de page** (Single Page Logic),
-* **Logs console** du formulaire simulant un envoi côté client.
+* **Système de likes** par média avec total en temps réel,
+* **Gestion des événements clavier/souris** avec accessibilité assurée.
 
 ---
 
-## ♿ Aspects techniques et accessibilité <a name="aspects-techniques-et-accessibilite"></a>
+## ⚙️ Aspects techniques et accessibilité <a name="aspects-techniques-et-accessibilite"></a>
 
-* Respect strict des recommandations **WCAG 2.1 AA**,
-* Validation via **AChecker** sans "known issues",
-* **Textes alternatifs** pour chaque média image ou vidéo,
-* Navigation **100% clavier compatible** (tabindex, `aria-*`, role),
-* Utilisation d’**éléments HTML sémantiques** (`<main>`, `<section>`, `<article>`, etc.),
-* Tests avec **lecteurs d’écran** pour améliorer l’expérience malvoyants.
+* Respect des standards **WCAG 2.1 AA**,
+* **Navigation 100% clavier** (tabindex, rôles, aria-label),
+* **Lightbox et modale** accessibles,
+* **Texte alternatif** pour tous les médias,
+* Tests réalisés avec **lecteurs d’écran**.
 
 ---
 
-## 🧩 Points techniques spécifiques <a name="points-techniques-specifiques"></a>
+## 🧩 Points techniques specifique <a name="points-techniques-specifique"></a>
 
 * **Lightbox personnalisée** :
 
-  * Ouverture au clic clavier ou souris,
-  * Fermeture avec touche `Esc` ou bouton,
-  * Navigation circulaire avec flèches gauche/droite.
-* **Formulaire modale** :
+  * Navigation clavier (flèches gauche/droite),
+  * Fermeture avec `Esc` ou bouton,
+  * Bouclage automatique (retour au premier élément).
 
-  * Focus automatique sur champ prénom,
-  * Validation front complète,
+* **Formulaire en modale** :
+
+  * Focus automatique à l'ouverture,
+  * Validation front complète avec messages d'erreur,
   * Accessibilité via `role="dialog"` et `aria-labelledby`.
-* **Filtrage dynamique** par étiquettes avec activation clavier.
+
+* **Filtrage par tags** entièrement **clavier-compatible**.
 
 ---
 
-## 🔗 Accès au projet par clic <a name="acces-au-projet-par-clic"></a>
+## 🔗 Accès au projet par clic <a name="acces-au-projet-par-clic"></a> :
 
 <a href="https://abdellahsany.github.io/FishEye/">
   <img src="https://github.com/abdellahsany/Kasa/blob/main/src/assets/images/Picture%20(47).png" alt="Cliquez ici" height="55px" width="55px"/>
@@ -102,7 +105,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-## 📲 Accès au projet par QR <a name="acces-au-projet-par-qr"></a>
+## 📲 Accès au projet par QR <a name="acces-au-projet-par-qr"></a> :
 
 <p align="left">
   <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://abdellahsany.github.io/FishEye/&amp;size=150x150" alt="QR code pour accéder au projet FishEye" height="55px" width="55px">
