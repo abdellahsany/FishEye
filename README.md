@@ -1,4 +1,3 @@
-
 ## FishEye
 
 <p align="center">  
@@ -9,14 +8,14 @@
 
 ## 📑 Table des matières
 
-* 🎯 Mission
-* 🧭 Objectifs
-* ✨ Points forts de l’interface
-* 🛠️ Stacks techniques
-* ✅ Fonctionnalités et bonnes pratiques
-* ⚙️ Aspects techniques & accessibilité
-* 🔍 Points techniques spécifiques
-* 🔗 Démo live
+- [🎯 Mission](#-mission)
+- [🧭 Objectifs](#-objectifs)
+- [✨ Points forts de l’interface](#-points-forts-de-linterface)
+- [🛠️ Stacks techniques](#-stacks-techniques)
+- [✅ Fonctionnalités et bonnes pratiques](#-fonctionnalités-et-bonnes-pratiques)
+- [⚙️ Aspects techniques & accessibilité](#-aspects-techniques--accessibilité)
+- [🔍 Points techniques spécifiques](#-points-techniques-spécifiques)
+- [🔗 Démo live](#-démo-live)
 
 ---
 
