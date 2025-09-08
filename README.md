@@ -1,6 +1,6 @@
 ## FishEye
 <p align="center">
-  <img src="https://github.com/abdellahsany/FishEye/blob/master/assets/media/Fisheye_welcome.png" alt="Page d’accueil FishEye" height="100%" width="100%">
+  <img src="https://github.com/abdellahsany/FishEye/blob/master/assets/media/fisheye_welcome.png" alt="Page d’accueil FishEye" width="100%">
 </p>
 ---
 
