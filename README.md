@@ -78,8 +78,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-<a id="aspects-techniques--accessibilité-fisheye"></a>
-## ⚙️ Aspects techniques & accessibilité 
+<a id="aspects-techniques--accessibilite-automatisation-fisheye"></a>
+## ⚙️ Aspects techniques & automatisation 
 
 * Respect des standards **WCAG 2.1 AA**
 * **Navigation 100% clavier** (tabindex, rôles, aria-label)
