@@ -1,8 +1,4 @@
-Voici ton fichier pour le projet **FishEye** reformatté pour correspondre exactement au style de ton projet **GameOn** :
-
----
-
-# *FishEye*
+## FishEye
 
 <p align="center">
   <img src="https://github.com/abdellahsany/FishEye/blob/master/assets/media/Fisheye_welcome.png" alt="Page d’accueil FishEye" height="100%" width="100%">
