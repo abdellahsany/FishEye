@@ -50,20 +50,20 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 <a id="stacks-techniques-fisheye"></a>
 ## 🛠️ Stacks techniques
 
-| Outils         | Fonctions                                                       |
-| ---------------------------- | ----------------------------------------------------------------------- |
-| HTML5                        | Structure claire et sémantique des pages                                |
-| CSS3 / Flexbox               | Mise en page responsive, alignements et layout dynamique                |
-| JavaScript (ES6+)            | Interactions dynamiques, tri, lightbox, modale                          |
-| ESLint                       | Vérification de style de code et erreurs                                |
-| GitHub Pages                 | Hébergement et déploiement                                              |
-| ARIA / WCAG 2.1              | Accessibilité et navigation clavier                                     |
-| Webpack / Parcel (optionnel) | Bundling et gestion des assets                                          |
-| Git / GitHub                 | Versionning et suivi des modifications                                  |
-| Font Awesome (CDN)           | Icônes pour UI                                                          |
-| Lightbox personnalisée       | Navigation interactive des médias                                       |
-| Local Storage / JSON         | Stockage temporaire et gestion des likes                                |
-| Media Queries                | Adaptation responsive selon les résolutions (desktop, tablette, mobile) |
+| Outils                        | Fonctions                                                      |
+| :---------------------------- | :------------------------------------------------------------- |
+| HTML5                         | Structure claire et sémantique des pages                       |
+| CSS3 / Flexbox                | Mise en page responsive, alignements et layout dynamique       |
+| JavaScript (ES6+)             | Interactions dynamiques, tri, lightbox, modale                 |
+| ESLint                        | Vérification de style de code et erreurs                       |
+| GitHub Pages                  | Hébergement et déploiement                                     |
+| ARIA / WCAG 2.1               | Accessibilité et navigation clavier                             |
+| Webpack / Parcel (optionnel)  | Bundling et gestion des assets                                  |
+| Git / GitHub                  | Versionning et suivi des modifications                          |
+| Font Awesome (CDN)            | Icônes pour UI                                                 |
+| Lightbox personnalisée        | Navigation interactive des médias                               |
+| Local Storage / JSON          | Stockage temporaire et gestion des likes                        |
+| Media Queries                 | Adaptation responsive selon les résolutions (desktop, tablette, mobile) |
 
 ---
 
