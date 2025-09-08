@@ -8,14 +8,14 @@
 
 ## 📑 Table des matières
 
-- [🎯 Mission](#-mission)
-- [🧭 Objectifs](#-objectifs)
-- [✨ Points forts de l’interface](#-points-forts-de-linterface)
-- [🛠️ Stacks techniques](#-stacks-techniques)
-- [✅ Fonctionnalités et bonnes pratiques](#-fonctionnalités-et-bonnes-pratiques)
-- [⚙️ Aspects techniques & accessibilité](#-aspects-techniques--accessibilité)
-- [🔍 Points techniques spécifiques](#-points-techniques-spécifiques)
-- [🔗 Démo live](#-démo-live)
+1. <a href="#mission" style="color:white">Mission</a>  
+2. <a href="#objectifs" style="color:white">Objectifs</a>  
+3. <a href="#points-forts-de-linterface" style="color:white">Points forts de l’interface</a>  
+4. <a href="#stacks-techniques" style="color:white">Stacks techniques</a>  
+5. <a href="#fonctionnalités-et-bonnes-pratiques" style="color:white">Fonctionnalités et bonnes pratiques</a>  
+6. <a href="#aspects-techniques--accessibilité" style="color:white">Aspects techniques & accessibilité</a>  
+7. <a href="#points-techniques-spécifiques" style="color:white">Points techniques spécifiques</a>  
+8. <a href="#démo-live" style="color:white">Démo live</a>  
 
 ---
 
