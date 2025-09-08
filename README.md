@@ -13,19 +13,21 @@
 * [Points forts de l’interface](#points-forts-de-linterface-fisheye)
 * [Stacks techniques](#stacks-techniques-fisheye)
 * [Fonctionnalités et bonnes pratiques](#fonctionnalités-et-bonnes-pratiques-fisheye)
-* [Aspects techniques & accessibilité](#aspects-techniques--accessibilité-fisheye)
+* [Aspects techniques & automatisation](#aspects-techniques--accessibilite-automatisation-fisheye)
 * [Points techniques spécifiques](#points-techniques-specifiques-fisheye)
 * [Démo live](#démo-live-fisheye)
 
 ---
 
-### 🎯 Mission <a id="mission-fisheye"></a>
+<a id="mission-fisheye"></a>
+### 🎯 Mission
 
 Moderniser une plateforme de photographes freelance initialement statique en une application web dynamique, interactive, et **entièrement accessible**. Le projet met l'accent sur l'expérience utilisateur et l'inclusion numérique.
 
 ---
 
-### 🧭 Objectifs <a id="objectifs-fisheye"></a>
+<a id="objectifs-fisheye"></a>
+### 🧭 Objectifs
 
 * Offrir un espace élégant et professionnel pour présenter les portfolios des photographes
 * Permettre aux visiteurs de **naviguer facilement**, d’**aimer**, et de **contacter** les photographes
@@ -34,7 +36,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-### ✨ Points forts de l’interface <a id="points-forts-de-linterface-fisheye"></a>
+<a id="points-forts-de-linterface-fisheye"></a>
+### ✨ Points forts de l’interface 
 
 * **Liste de photographes** filtrable par tags dynamiques
 * **Pages individuelles** avec galeries interactives
@@ -44,7 +47,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-### 🛠️ Stacks techniques <a id="stacks-techniques-fisheye"></a>
+<a id="stacks-techniques-fisheye"></a>
+### 🛠️ Stacks techniques
 
 | Outils / Librairies          | Fonctions                                                               |
 | ---------------------------- | ----------------------------------------------------------------------- |
@@ -63,7 +67,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-### ✅ Fonctionnalités et bonnes pratiques <a id="fonctionnalités-et-bonnes-pratiques-fisheye"></a>
+<a id="fonctionnalités-et-bonnes-pratiques-fisheye"></a>
+### ✅ Fonctionnalités et bonnes pratiques
 
 * Architecture **modulaire** : fichiers séparés par logique (templates, données, composants)
 * Navigation **sans rechargement de page**
@@ -73,7 +78,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-### ⚙️ Aspects techniques & accessibilité <a id="aspects-techniques--accessibilité-fisheye"></a>
+<a id="aspects-techniques--accessibilité-fisheye"></a>
+### ⚙️ Aspects techniques & accessibilité 
 
 * Respect des standards **WCAG 2.1 AA**
 * **Navigation 100% clavier** (tabindex, rôles, aria-label)
@@ -83,7 +89,8 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-### 🔍 Points techniques spécifiques <a id="points-techniques-specifiques-fisheye"></a>
+<a id="points-techniques-specifiques-fisheye"></a>
+### 🔍 Points techniques spécifiques
 
 * **Lightbox personnalisée**
 * Navigation clavier (flèches gauche/droite)
