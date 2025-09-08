@@ -5,7 +5,7 @@ Voici ton fichier pour le projet **FishEye** reformatté pour correspondre exact
 # *FishEye*
 
 <p align="center">
-  <img src="https://github.com/abdellahsany/FishEye/assets/106497263/8f13bdff-bafd-4fcf-9f03-b291cdf7a213" alt="Page d’accueil FishEye" height="90%" width="90%">
+  <img src="https://github.com/abdellahsany/FishEye/assets/media/fisheye_welcome" alt="Page d’accueil FishEye" height="90%" width="90%">
 </p>
 
 ---
