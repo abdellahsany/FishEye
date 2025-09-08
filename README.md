@@ -6,7 +6,7 @@
 
 ---
 
-### Table des matières
+### 📑 Table des matières
 
 * [Mission](#mission-fisheye)
 * [Objectifs](#objectifs-fisheye)
