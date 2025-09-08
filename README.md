@@ -6,7 +6,7 @@
 
 ---
 
-## 📑 Table des matières
+### 📑 Table des matières
 
 * [Mission](#mission-fisheye)
 * [Objectifs](#objectifs-fisheye)
@@ -20,14 +20,14 @@
 ---
 
 <a id="mission-fisheye"></a>
-## 🎯 Mission
+### 🎯 Mission
 
 Moderniser une plateforme de photographes freelance initialement statique en une application web dynamique, interactive, et **entièrement accessible**. Le projet met l'accent sur l'expérience utilisateur et l'inclusion numérique.
 
 ---
 
 <a id="objectifs-fisheye"></a>
-## 🧭 Objectifs
+### 🧭 Objectifs
 
 * Offrir un espace élégant et professionnel pour présenter les portfolios des photographes
 * Permettre aux visiteurs de **naviguer facilement**, d’**aimer**, et de **contacter** les photographes
@@ -37,7 +37,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ---
 
 <a id="points-forts-de-linterface-fisheye"></a>
-## ✨ Points forts de l’interface 
+### ✨ Points forts de l’interface 
 
 * **Liste de photographes** filtrable par tags dynamiques
 * **Pages individuelles** avec galeries interactives
@@ -48,7 +48,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ---
 
 <a id="stacks-techniques-fisheye"></a>
-## 🛠️ Stacks techniques
+### 🛠️ Stacks techniques
 
 | Outils                        | Fonctions                                                      |
 | :---------------------------- | :------------------------------------------------------------- |
@@ -68,7 +68,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ---
 
 <a id="fonctionnalités-et-bonnes-pratiques-fisheye"></a>
-## ✅ Fonctionnalités et bonnes pratiques
+### ✅ Fonctionnalités et bonnes pratiques
 
 * Architecture **modulaire** : fichiers séparés par logique (templates, données, composants)
 * Navigation **sans rechargement de page**
@@ -79,7 +79,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ---
 
 <a id="aspects-techniques--accessibilite-automatisation-fisheye"></a>
-## ⚙️ Aspects techniques & automatisation 
+### ⚙️ Aspects techniques & automatisation 
 
 * Respect des standards **WCAG 2.1 AA**
 * **Navigation 100% clavier** (tabindex, rôles, aria-label)
@@ -90,7 +90,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ---
 
 <a id="points-techniques-specifiques-fisheye"></a>
-## 🔍 Points techniques spécifiques
+### 🔍 Points techniques spécifiques
 
 * **Lightbox personnalisée**
 * Navigation clavier (flèches gauche/droite)
@@ -104,7 +104,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 
 ---
 
-## 🔗 Démo live <a id="démo-live-fisheye"></a>
+### 🔗 Démo live <a id="démo-live-fisheye"></a>
 
 <a href="https://abdellahsany.github.io/FishEye/" target="_blank">
   <img src="https://img.shields.io/badge/Démo_live-Cliquez_ici-941d1d?style=plastic&logo=github&logoColor=white&labelFont=DejaVu%20Sans&messageFont=DejaVu%20Sans&labelFontSize=12&messageFontSize=12" 
