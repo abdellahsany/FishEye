@@ -107,7 +107,7 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 ### 🔗 Démo <a id="démo-fisheye"></a>
 
 <a href="https://abdellahsany.github.io/FishEye/" target="_blank">
-  <img src="https://img.shields.io/badge/FishEye%20live-Cliquez%20ici-941d1d?style=plastic&logo=github&logoColor=white"
+  <img src="https://img.shields.io/badge/FishEye-Cliquez%20ici-941d1d?style=plastic&logo=github&logoColor=white"
        alt="Démo live"
        style="border-radius:10px;">
 </a>
