@@ -101,13 +101,3 @@ Moderniser une plateforme de photographes freelance initialement statique en une
 * Validation front complète avec messages d'erreur
 * Accessibilité via `role="dialog"` et `aria-labelledby`
 * **Filtrage par tags**, entièrement clavier-compatible
-
----
-
-### 🔗 Démo <a id="démo-fisheye"></a>
-
-<a href="https://abdellahsany.github.io/FishEye/" target="_blank">
-  <img src="https://img.shields.io/badge/FishEye-Cliquez%20ici-941d1d?style=plastic&logo=github&logoColor=white"
-       alt="Démo"
-       style="border-radius:10px;">
-</a>
