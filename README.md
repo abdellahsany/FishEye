@@ -15,7 +15,6 @@
 * [Fonctionnalités et bonnes pratiques](#fonctionnalités-et-bonnes-pratiques-fisheye)
 * [Aspects techniques & automatisation](#aspects-techniques--accessibilite-automatisation-fisheye)
 * [Points techniques spécifiques](#points-techniques-specifiques-fisheye)
-* [Démo](#démo-fisheye)
 
 ---
 
